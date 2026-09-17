@@ -1,0 +1,45 @@
+test_number,customer_message,expected_intent,keyword_intent,ml_intent,hybrid_intent,result
+1,My iPhone battery is draining very quickly,Battery & Charging,Battery & Charging,Other,Battery & Charging,CORRECT
+2,My iPhone is not charging,Battery & Charging,Battery & Charging,Other,Battery & Charging,CORRECT
+3,My battery health is getting worse,Battery & Charging,Battery & Charging,Other,Battery & Charging,CORRECT
+4,My charger is not working,Battery & Charging,Battery & Charging,Other,Battery & Charging,CORRECT
+5,My WiFi is not connecting to my iPhone,Connectivity,Connectivity,Other,Connectivity,CORRECT
+6,Bluetooth is not connecting,Connectivity,Connectivity,Other,Connectivity,CORRECT
+7,My internet is not working,Connectivity,Connectivity,Other,Connectivity,CORRECT
+8,Mobile data is not working,Connectivity,Connectivity,Other,Connectivity,CORRECT
+9,I cannot sign into my Apple ID,Apple ID & Account,Apple ID & Account,Other,Apple ID & Account,CORRECT
+10,I forgot my Apple ID password,Apple ID & Account,Apple ID & Account,Other,Apple ID & Account,CORRECT
+11,I cannot login to my Apple account,Apple ID & Account,Apple ID & Account,Other,Apple ID & Account,CORRECT
+12,My iCloud backup is not working,iCloud & Backup,iCloud & Backup,Other,iCloud & Backup,CORRECT
+13,I cannot backup my iPhone to iCloud,iCloud & Backup,iCloud & Backup,Other,iCloud & Backup,CORRECT
+14,My iCloud storage is full,iCloud & Backup,iCloud & Backup,Other,iCloud & Backup,CORRECT
+15,My iPhone screen is not responding,"Display, Keyboard & Camera","Display, Keyboard & Camera",Other,"Display, Keyboard & Camera",CORRECT
+16,My camera is not working,"Display, Keyboard & Camera","Display, Keyboard & Camera",Other,"Display, Keyboard & Camera",CORRECT
+17,My keyboard is typing the wrong letters,"Display, Keyboard & Camera","Display, Keyboard & Camera",Other,"Display, Keyboard & Camera",CORRECT
+18,My touchscreen is not working,"Display, Keyboard & Camera","Display, Keyboard & Camera",Other,"Display, Keyboard & Camera",CORRECT
+19,My App Store keeps crashing,Apps & App Problems,Apps & App Problems,Other,Apps & App Problems,CORRECT
+20,The app keeps crashing,Apps & App Problems,Apps & App Problems,Other,Apps & App Problems,CORRECT
+21,I cannot download an app,Apps & App Problems,Apps & App Problems,Other,Apps & App Problems,CORRECT
+22,My application is not working,Apps & App Problems,Apps & App Problems,Other,Apps & App Problems,CORRECT
+23,Apple Music is not working,Music & Media,Music & Media,Other,Music & Media,CORRECT
+24,My songs are not playing,Music & Media,Music & Media,Other,Music & Media,CORRECT
+25,My playlist is missing,Music & Media,Music & Media,Other,Music & Media,CORRECT
+26,My podcast is not playing,Music & Media,Music & Media,Other,Music & Media,CORRECT
+27,Videos are not playing on my iPhone,Music & Media,Music & Media,Other,Music & Media,CORRECT
+28,I cannot send messages,Messages & Communication,Messages & Communication,Other,Messages & Communication,CORRECT
+29,iMessage is not working,Messages & Communication,Messages & Communication,Other,Messages & Communication,CORRECT
+30,FaceTime is not working,Messages & Communication,Messages & Communication,Other,Messages & Communication,CORRECT
+31,I was charged for an App Store purchase,Payments & Subscriptions,Payments & Subscriptions,Other,Payments & Subscriptions,CORRECT
+32,I want a refund for an app,Payments & Subscriptions,Payments & Subscriptions,Other,Payments & Subscriptions,CORRECT
+33,My subscription payment failed,Payments & Subscriptions,Payments & Subscriptions,Other,Payments & Subscriptions,CORRECT
+34,I think my account has been hacked,Security & Access,Security & Access,Other,Security & Access,CORRECT
+35,I have a security problem,Security & Access,Security & Access,Other,Security & Access,CORRECT
+36,The latest iOS update is causing problems,iOS Update & Software Issues,iOS Update & Software Issues,Other,iOS Update & Software Issues,CORRECT
+37,My iOS update failed,iOS Update & Software Issues,iOS Update & Software Issues,Other,iOS Update & Software Issues,CORRECT
+38,I cannot update my iPhone,iOS Update & Software Issues,iOS Update & Software Issues,Other,iOS Update & Software Issues,CORRECT
+39,My iPhone keeps restarting,General Device Issues,General Device Issues,Other,General Device Issues,CORRECT
+40,My iPhone is frozen,General Device Issues,General Device Issues,Other,General Device Issues,CORRECT
+41,My phone is very slow,General Device Issues,General Device Issues,Other,General Device Issues,CORRECT
+42,My iPhone will not turn on,General Device Issues,General Device Issues,Other,General Device Issues,CORRECT
+43,My device is having an issue,General Device Issues,General Device Issues,Other,General Device Issues,CORRECT
+44,I have a question about my Apple device,Other,Other,Other,Other,CORRECT
